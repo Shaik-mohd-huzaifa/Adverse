@@ -1,0 +1,98 @@
+.Parameters-container{
+    width: 350px;
+    position: fixed;
+    height: 96vh;
+    z-index: 1000;
+    top:10px;
+    margin: 0;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: auto;
+    .close-icon{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        font-size: 20px;
+        padding: 3px 7px 1px;
+        border-radius: 10px;
+        border: 0;
+        color:black;
+        z-index: 999;
+        background-color: white;
+        // background-image: linear-gradient(-20deg, #ff5005, #dbba95, #d0bce1);
+        svg{
+            margin: 0;
+        }
+    }
+    h3{
+        margin: 10px 5px;
+    }
+    .inputs{
+        .input-group{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        
+            label{
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+        
+            textarea{
+                width: 100%;
+                padding: 10px;
+                height: 200px;
+                font-family: 'Inter';
+                box-sizing: border-box;
+                border-radius: 6px;
+                background-color:#f3f3f4;
+                border: 2px solid #dddddf;
+            }
+        }
+    }
+    .submit-button{
+        width: 94%;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        background-image: linear-gradient(20deg, #ff5005, #dbba95, #d0bce1);
+        border: 0;
+        color: black;
+    }
+    scrollbar-width: thin; /* Firefox */
+  scrollbar-color: black transparent; /* Thumb and track colors for Firefox */
+
+  &::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Background of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #f0f0f0; /* Adds padding around the thumb */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #333; /* Darker shade when hovered */
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: transparent; /* Make the corner where scrollbars meet transparent */
+  }
+}

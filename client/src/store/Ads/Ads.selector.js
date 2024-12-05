@@ -1,0 +1,1 @@
+export const AdsSelector = (state) => state.Ads.generated_images

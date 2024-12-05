@@ -1,0 +1,40 @@
+.portrait-container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    column-gap: 20px;
+    .index{
+        .sizes{
+            position: absolute;
+            background-color: white;
+            top: 0;
+            z-index: 1000;
+        }
+        position: relative;
+    }
+    .image-container{
+        min-width: 300px;
+        border-radius: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .image-container.S1024x1024{
+        width: 400px;
+        height: 400px;
+    }
+    .image-container.S640x1536{
+        width: 250px; 
+    }
+    .image-container.S896x1088{
+        width: 400px;
+    }
+    .image-container.S832x1216{
+        width: 400px;
+    }
+    .image-container.S768x1344{
+        width: 300px;
+    }
+}

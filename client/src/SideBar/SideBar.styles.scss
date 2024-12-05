@@ -1,0 +1,100 @@
+$primary-color: black;
+$primary-color-lite:white;
+.sidebar{
+    width: 18%;
+    height: 98%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(40deg, #ff5005, #dbba95, #d0bce1);
+        
+    position: fixed;
+    padding-right: 10px;
+    border-radius: 8px;
+    // position: relative;
+    .header{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 25px;
+        box-sizing: border-box;
+        color: black;
+        column-gap: 10px;
+        font-size: 30px;
+        img{
+            width: 45px;
+            border-radius: 10px;
+            height: 40px;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0;
+            font-family: 'Inter';
+        }
+    }
+    ul{
+        height: 100%;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        box-sizing: border-box;
+        row-gap: 10px;
+        padding: 0px 13px;
+        justify-content: flex-start;
+        text-align: left;
+        svg{
+            font-size: 20px;
+        }
+        p{
+            margin: 0;
+            color: $primary-color;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: Inter;
+        }
+        li{
+            width: 100%;
+            padding: 10px 0px 10px 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            column-gap: 14px;
+            font-size: 16px;
+            color: $primary-color;
+            .icon{
+                font-size: 23px;
+                margin: 0;
+            }
+            a{
+                color: $primary-color;
+                font-size: 16px;
+            }    
+        }
+        li:hover{
+            background-color: $primary-color;
+            color: white;
+    }
+    li:hover > a{
+        color:white;
+    }
+    }
+    .buttons{
+        position: absolute;
+        bottom: 10px;
+        width: 92%;
+        left: 4%;
+        button{
+            display: flex;
+            color: white;
+            background-color: #257aee;
+            align-items: center;
+            justify-content: center;
+            column-gap: 5px;
+            width: 100%;
+        }
+    }
+    }

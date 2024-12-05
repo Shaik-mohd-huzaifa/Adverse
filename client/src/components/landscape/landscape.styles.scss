@@ -1,0 +1,47 @@
+.landscape-container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 20px;
+    row-gap: 20px;
+    position: relative;
+    .index{
+        .sizes{
+            position: absolute;
+            background-color: white;
+            top: 0;
+            z-index: 1000;
+        }
+        position: relative;
+    }
+    .image-container{
+        min-width: 300px;
+        border-radius: 20px;
+    }
+    .image-container.S1024x1024{
+        width: 410px;
+        height: 410px;
+    }
+    .image-container.S1216x832{
+        width: 500px;
+        height: 260px;
+    }
+    .image-container.S1536x640S{
+        width: 300px !important; 
+        height: 250px;
+    }
+    .image-container.S1344x768{
+        width: 400px;
+        height: 220px;
+    }
+    .image-container.S1536x640{
+        width: 600px;
+        height: 220px;
+    }
+    .image-container.S1088x896{
+        width: 500px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,24 @@
+.select-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+
+    label{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    select{
+        width: 100%;
+        font-family: 'Inter';
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background-color:#f3f3f4;
+        border: 2px solid #dddddf;
+    }
+
+}

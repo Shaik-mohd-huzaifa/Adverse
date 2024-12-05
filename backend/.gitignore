@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Django-specific files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations
+*/migrations/*
+
+# Media files
+/media/
+!media/.gitkeep
+
+# Static files
+/static/
+!static/.gitkeep
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Test coverage files
+.coverage
+*.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# PIP
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local development files
+local_settings.py
+
+sample.py
+
+createBrand.py
+Creategenerations.py
+get_brands.py
+GetGenerations.py
+
+image_generation.py
+upload_to_s3.py

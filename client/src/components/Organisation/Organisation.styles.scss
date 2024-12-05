@@ -1,0 +1,79 @@
+.organisation-container{
+    width: 100%;
+    padding: 10px;
+    h1{
+        margin: 10px 0;
+        font-size: 40px;
+    }
+
+    .listing-top{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: linear-gradient(-20deg, #ff5005, #dbba95, #d0bce1);
+        
+        border-radius: 14px;
+        p{
+            margin: 5px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        button{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            column-gap: 3px;
+            svg{
+                font-size: 22px;
+            }
+        }
+    }
+    .brands-list-container{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 10px;
+        .brand-card{
+            width: 33%;
+            padding: 10px  20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color:#f3f3f4;
+            border: 2px solid #dddddf;
+            h3{
+                margin: 5px 0px;
+            }
+            p{
+                font-size: 14px;
+            }
+            .type{
+                background-color: #ff5005;
+                width: fit-content;
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: white;
+            }
+            .color-scheme{
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+                svg{
+                    font-size: 20px;
+                    color: #ff5005;
+                }
+            }
+            button{
+                width: 100%;
+                background-color: black;
+                color: white;
+            }
+        }   
+    }
+}

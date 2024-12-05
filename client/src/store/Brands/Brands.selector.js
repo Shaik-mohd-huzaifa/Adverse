@@ -1,0 +1,1 @@
+export const BrandSelector = (state) => state.Brands.brands
